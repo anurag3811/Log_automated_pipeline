@@ -68,3 +68,4 @@ def count_documents():
 if __name__ == "__main__":
     logging.info("Starting the Flask application with scheduled document insertion...")
     app.run(debug=True, use_reloader=False)  # use_reloader=False to prevent scheduler from running twice
+    #end
